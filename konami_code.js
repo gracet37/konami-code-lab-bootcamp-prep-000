@@ -12,19 +12,18 @@ const codes = [
 ];
 
 
-let i = 0;
-
 function init(e) {
  const body = document.querySelector("body")
 
  body.addEventListener('keydown',function(e) {
-   
+   const X = []  
    const key = e.keydown;
+   let i=0;
+   while (i<codes.length);
    if(key === codes[i]) {
      i++;
      
-     if(i === codes.length) {
-       alert("Woohoo");
+    
        
        i = 0
      }

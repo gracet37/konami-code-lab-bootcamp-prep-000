@@ -36,7 +36,7 @@ document.addEventListener('keydown', function(e) {
     konamiCodePosition++;
     // if the last key is reached, activate cheats
     if (konamiCodePosition == konamiCode.length)
-      activateCheats();
+      alert("Booya");
   } else
     konamiCodePosition = 0;
 });

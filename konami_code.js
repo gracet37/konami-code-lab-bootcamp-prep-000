@@ -7,7 +7,7 @@ var allowedKeys = {
   66: 'b'
 };
 
-const codes = [
+const konamiCode = [
   "ArrowUp",
   "ArrowUp",
   "ArrowDown",

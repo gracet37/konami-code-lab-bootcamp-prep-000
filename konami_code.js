@@ -12,28 +12,12 @@ const codes = [
 ];
 
 
+var codePosition = 0
 function init(e) {
- const body = document.querySelector("body")
+  document.addEventListener('keydown',function(e) {
+    var key = allowedKeys[e.keyCode]
+  }
 
- body.addEventListener('keydown',function(e) {
-   const X = []  
-   const key = e.keydown;
-   let i=0;
-   while (i<codes.length);
-   if(key === codes[i]) {
-     i++;
-     
-    
-       
-       i = 0
-     }
-     
-   } else {
-     i = 0;
-   }
- })
+
 }
-
-init()
-
  
